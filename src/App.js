@@ -29,25 +29,26 @@ class App extends Component {
         
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav navbar-right">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/event">The Event</Link></li>
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/performers">Performers</Link></li>
-                <li><Link to="/schedule">Schedule</Link></li>
+                <li className="nav-link"><Link to="/">Home</Link></li>
+                <li className="nav-link"><Link to="/event">The Event</Link></li>
+                <li className="nav-link"><Link to="/about">About Us</Link></li>
+                <li className="nav-link"><Link to="/performers">Performers</Link></li>
+                <li className="nav-link"><Link to="/schedule">Schedule</Link></li>
               </ul>
             </div>
           </div>
         </nav>
         
-
-        <Route exact path="/" component={Home}/>
-        <Route path="/event" component={Event}/>
-        <Route path="/about" component={About}/>
-        <Route path="/performers" component={Performers}/>
-        <Route path="/schedule" component={Schedule}/>
-        
+        <div className="wrapper">
+          <Route exact path="/" component={Home}/>
+          <Route path="/event" component={Event}/>
+          <Route path="/about" component={About}/>
+          <Route path="/performers" component={Performers}/>
+          <Route path="/schedule" component={Schedule}/>
         </div>
-      </Router>
+        
+      </div>
+    </Router>
     );
   }
 }
