@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-    Link
-  } from 'react-router-dom';
 
 export default class Performers extends Component{
     render(){
@@ -18,25 +15,18 @@ export default class Performers extends Component{
                         <p>Robyn Miller</p>
                         <p>Grace Costenbader/Marina Munoz</p>
                         <p>Hannah Franke</p>
-                        <p>Brendan McIntyre/Teryn Walley</p>
-                        <p>Shelbie Patino</p>
+                        <p>Brendan McIntyre</p>
                         <p>Autumn Schultz</p>
-                        <p>Emily Turner</p>
+                        <p>Emily Turner/Jonathan Beikirch</p>
                     </div>
                     <div className="col-sm-4 event-info">
-                        <p>Kelly Donnelly</p>
+                        <p>Brooks Derkowski</p>
                         <p>Kylie Smith</p>
                         <p>John Gerzik</p>
-                        <p>Jonathan Beikirch</p>
-                        <p>Luke Miles</p>
-                        <p>Mr. Cain</p>
+                        <p>Luke Miles/Axel Pena</p>
                         <p>Maleigh Canon</p>
+                        <p>John Gerzik</p>
                     </div>
-                    <div className="col-sm-8 col-centered event-info">
-                        <br />
-                        <p><Link to="/schedule">What's the schedule?</Link></p>
-                    </div>
-                    
                 </div>
             </div>
         )

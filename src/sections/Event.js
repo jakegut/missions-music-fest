@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-    Link
-  } from 'react-router-dom'
 
 export default class Event extends Component{
     render(){
@@ -19,8 +16,6 @@ export default class Event extends Component{
                         <p>With live music, baked goods, and a photo booth</p>
                         <p>Tickets: $5 for everyone</p>
                         <p>Bring your own blanket or chair</p>
-                        <br />
-                        <p><Link to="/about">What are we doing?</Link></p>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-    Link
-  } from 'react-router-dom';
 
 export default class About extends Component{
     render(){
@@ -19,8 +16,6 @@ export default class About extends Component{
                         <p>The purpose was not just to raise money, but also to raise awareness for Honduras and for missionaries all over the world.</p>
                         <p>We have an amazing line up set up for y’all! It’s filled with artists from all over who all have amazing talent and can’t wait to share their voice and talent with y’all!</p>
                         <p>We hope you will come out to support the Central Seniors as we head out into the world helping others and spreading His name!</p>
-                        <br />
-                        <p><Link to="/performers">Who's performing?</Link></p>
                     </div>
                 </div>
             </div>

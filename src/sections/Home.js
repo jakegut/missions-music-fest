@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-    Link
-  } from 'react-router-dom'
 
 export default class Home extends Component{
     render(){
@@ -12,7 +9,7 @@ export default class Home extends Component{
                     <div className="col-sm-12 title">
                         <h1>Missions</h1>
                         <h2>Music Fest</h2>
-                        <h3><Link to="/event">Learn More</Link></h3>
+                        <h3><a href="#event">Learn More</a></h3>
                     </div>
                 </div>
             </div>

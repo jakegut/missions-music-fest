@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {
-    Link
-  } from 'react-router-dom';
 
 export default class Schedule extends Component{
     render(){
@@ -14,8 +11,17 @@ export default class Schedule extends Component{
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-8 col-centered event-info">
-                        <p>In Development</p>
+                    <div className="col-sm-4 col-centered event-info">
+                        <div>
+                            <p>6:30pm - Gates open</p>
+                            <p>7:00pm - Event starts</p>
+                            <p>7:10pm - Introduction</p>
+                            <p>7:30pm - First round of performers</p>
+                            <p>8:15pm - Intermission</p>
+                            <p>8:45pm - Second round of performers</p>
+                            <p>9:45pm - Closing remarks</p>
+                            <p>10:00pm - Gates close</p>
+                        </div>
                     </div>
                 </div>
             </div>
